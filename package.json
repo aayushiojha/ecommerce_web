@@ -3,14 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://aayushiojha.github.io/ecommerce_web",  // Add this line for GitHub Pages URL
+  "homepage": "https://aayushiojha.github.io/ecommerce_web",  // Homepage for GitHub Pages
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",  // Build the project before deploying
-    "deploy": "gh-pages -d dist"  // Deploy the dist folder to gh-pages
+    "predeploy": "npm run build",  // Build before deployment
+    "deploy": "gh-pages -d dist"  // Deploy to gh-pages
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
